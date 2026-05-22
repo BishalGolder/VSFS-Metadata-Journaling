@@ -1,0 +1,18 @@
+# Block compiled executables (Linux/macOS)
+journal
+mkfs
+validator
+
+# Block compiled executables (Windows)
+*.exe
+*.o
+*.out
+
+# Block the heavy disk image file
+*.img
+vsfs.img
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.vscode/
